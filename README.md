@@ -1,4 +1,4 @@
-# EventGO Mobile App 📱
+# EventGO Mobile App
 
 Cross-platform mobile application for the EventGO event management platform, built with React Native and Expo.
 
