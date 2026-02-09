@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# EventGO Mobile App 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Cross-platform mobile application for the EventGO event management platform, built with React Native and Expo.
 
-## Get started
+---
 
-1. Install dependencies
+## Overview
 
-   ```bash
-   npm install
-   ```
+EventGO Mobile App is a native mobile application that provides a seamless experience for browsing events, purchasing tickets, and managing event attendance on iOS and Android devices.
 
-2. Start the app
+### Key Capabilities
 
-   ```bash
-   npx expo start
-   ```
+- **Event Discovery**: Browse and search events with native mobile UX
+- **Ticket Purchase**: Mobile-optimized ticket purchasing flow
+- **Digital Tickets**: QR code-based ticket validation
+- **Push Notifications**: Event reminders and updates
+- **Offline Support**: View purchased tickets without internet
+- **Native Performance**: Fast, responsive mobile experience
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### For Users
+- Browse upcoming and past events
+- Search and filter events by location, date, category
+- Purchase tickets with mobile payment integration
+- Store digital tickets with QR codes
+- Join waitlists for sold-out events
+- Request ticket refunds
+- View purchase history
+- Manage profile settings
+- Receive push notifications
 
-## Get a fresh project
+### General
+- JWT-based authentication with biometric support
+- Cross-platform (iOS & Android)
+- Responsive design for all screen sizes
+- Toast notifications for user feedback
+- Pull-to-refresh functionality
+- Loading states and error handling
+- Offline ticket viewing
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **Framework**: React Native
+- **Platform**: Expo SDK 52
+- **Navigation**: Expo Router (file-based routing)
+- **HTTP Client**: Axios
+- **State Management**: React Context / Redux (if implemented)
+- **UI Components**: React Native Paper / Native Base
+- **Icons**: Expo Vector Icons
+- **Storage**: AsyncStorage / Expo SecureStore
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Related Projects
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Backend**: [EventGO-backend](../EventGO-backend/)
+- **Web App**: [EventGO-frontend](../EventGO-frontend/)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
