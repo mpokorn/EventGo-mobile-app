@@ -41,5 +41,5 @@ EventGO Mobile App is a native mobile application that provides a seamless exper
 
 ## Related Projects
 
-- **Backend**: [EventGO-backend](https://github.com/mpokorn/EventGo-backend) (local: `../EventGO-backend/`)
-- **Web App**: [EventGO-frontend](https://github.com/mpokorn/EventGo-frontend) (local: `../EventGO-frontend/`)
+- **Backend**: [EventGO-backend](https://github.com/mpokorn/EventGo-backend) 
+- **Web App**: [EventGO-frontend](https://github.com/mpokorn/EventGo-frontend) 
