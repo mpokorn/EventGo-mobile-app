@@ -12,11 +12,6 @@ EventGO Mobile App is a native mobile application that provides a seamless exper
 
 - **Event Discovery**: Browse and search events with native mobile UX
 - **Ticket Purchase**: Mobile-optimized ticket purchasing flow
-- **Digital Tickets**: QR code-based ticket validation
-- **Push Notifications**: Event reminders and updates
-- **Offline Support**: View purchased tickets without internet
-- **Native Performance**: Fast, responsive mobile experience
-
 ---
 
 ## Features
@@ -27,22 +22,10 @@ EventGO Mobile App is a native mobile application that provides a seamless exper
 - Purchase tickets with mobile payment integration
 - Store digital tickets with QR codes
 - Join waitlists for sold-out events
-- Request ticket refunds
 - View purchase history
 - Manage profile settings
-- Receive push notifications
-
-### General
-- JWT-based authentication with biometric support
-- Cross-platform (iOS & Android)
-- Responsive design for all screen sizes
-- Toast notifications for user feedback
-- Pull-to-refresh functionality
-- Loading states and error handling
-- Offline ticket viewing
 
 ---
-
 ## Tech Stack
 
 - **Framework**: React Native
